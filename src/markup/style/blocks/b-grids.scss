@@ -1,0 +1,15 @@
+.grid-item {
+  float: left;
+  width: 160px;
+  height: 103px;
+  margin-bottom: 20px;
+}
+.grid-sizer{
+  width:25%;
+  display: none;
+}
+.gutter-sizer{
+
+}
+.grid-item--width2 { width: 160px; height: 103px; }
+.grid-item--height2 { height: 228px; width: 160px; }
