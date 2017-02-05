@@ -1,0 +1,32 @@
+.pagin{
+  color: #000;
+  font-size: 13px;
+  font-family: $notoSansRegular;
+  max-width: 360px;
+  padding: 0 0 24px 0;
+  .current{
+    font-family: $notoSansBold;
+    background: #e6e6e6;
+    border-radius:20px ;
+    padding: 11px 14px;
+  }
+  ul{
+    margin-left: 0; /* Отступ слева в браузере IE и Opera */
+    padding-left: 0; /* Отступ слева в браузере Firefox, Safari, Chrome */
+    li{
+      display: inline-block;
+      list-style-type: none;
+      margin: 0 25px 0 0;
+    }
+  }
+}
+.pagin__pages{
+  color: #848484;
+  padding: 11px 0 0 0;
+  margin: 0 25px 0 0;
+
+}
+
+.pagin__next{
+  padding: 11px 0 0 0;
+}

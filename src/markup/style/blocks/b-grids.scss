@@ -1,15 +1,28 @@
-.grid-item {
+.grid__item {
   float: left;
   width: 160px;
   height: 103px;
   margin-bottom: 20px;
+  text-align: center;
 }
-.grid-sizer{
+.grid__sizer{
   width:25%;
   display: none;
 }
-.gutter-sizer{
+.gutter__sizer{
 
 }
-.grid-item--width2 { width: 160px; height: 103px; }
-.grid-item--height2 { height: 228px; width: 160px; }
+.grid__item-width2 { width: 160px; height: 103px; }
+.grid__item-height2 { height: 228px; width: 160px; }
+.grid__date{
+  font-family: $notoSerifBold;
+  font-size: 18px;
+}
+.grid__date-num{
+  font-family: $notoSerifBold;
+  font-size: 36px;
+  display: block;
+  float: left;
+  width: 100%;
+  margin: 25px 0 0 0;
+}

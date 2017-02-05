@@ -5,6 +5,7 @@
     <file url="file://$PROJECT_DIR$/build/markup/index.html" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/markup/style/blocks/b-grids.scss" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/markup/style/blocks/b-header.scss" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/markup/style/blocks/b-paggen.scss" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/markup/style/global.scss" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/markup/style/media.scss" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/markup/style/mixins.scss" charset="UTF-8" />

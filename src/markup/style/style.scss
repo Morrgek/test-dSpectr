@@ -13,7 +13,7 @@
 //blocks
 @import "blocks/b-header";
 @import "blocks/b-grids";
-
+@import "blocks/b-paggen";
 
 .black-stripe_header {
   overflow: hidden;
@@ -60,7 +60,16 @@
   left: 50%;
   margin: 0 0 0 -17px;
 }
-
+.grid__item-arrow-black:before{
+  content: '';
+  display: block;
+  border-top: 3px solid transparent;
+  border-bottom: 3px solid transparent;
+  position: absolute;
+  top: 40%;
+  border-left: 3px solid #000;
+  right: 19px;
+}
 .big-picture__date {
   padding: 21px 19px;
   background: #fff;
